@@ -4,7 +4,7 @@ public class DotToPng {
     public static void convet(String dotFilePath, String pngFilePath) {
         // 调用Graphviz库的dot命令将dot文件转换为png文件
         try {
-            ProcessBuilder processBuilder = new ProcessBuilder("dot", "-Tpng", "-o", pngFilePath, dotFilePath);
+            ProcessBuilder processBuilder = new ProcessBuilder("tools/graphviz/bin/dot.exe", "-Tpng", "-o", pngFilePath, dotFilePath);
             processBuilder.redirectErrorStream(true);
             Process process = processBuilder.start();
             process.waitFor();

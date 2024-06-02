@@ -1,0 +1,4 @@
+digraph G {
+	"x" -> "y" [label="1"];
+	"ok" -> "x" [label="1"];
+}

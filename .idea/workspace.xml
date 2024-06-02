@@ -4,22 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac75e5c2-f4e4-4b3b-b6a9-8f43f713321e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph.dot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DotToPng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TextFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.iml" afterDir="false" />
+    <list default="true" id="ac75e5c2-f4e4-4b3b-b6a9-8f43f713321e" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/ok.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ok1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ImageDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ImagePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TextFileToDirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/use.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph.dot" beforeDir="false" afterPath="$PROJECT_DIR$/resource/graph.dot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/graph.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DotToPng.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DotToPng.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TextToGraph.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,7 @@
     &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;322&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/downloads/openjfx-11.0.2_windows-x64_bin-sdk/javafx-sdk-11.0.2/lib&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/desktop/study/3s/software/TextToGraph&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,20 +74,29 @@
     &quot;应用程序.DirectedGraphDisplay.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.DotToPng.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.GUI.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ImageDisplay.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ImagePanel.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.SwingExample.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Test.executor&quot;: &quot;Run&quot;,
     &quot;应用程序.UI.executor&quot;: &quot;Run&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desktop\study\3s\software\TextToGraph" />
+      <recent name="D:\desktop\study\3s\software\TextToGraph\src" />
+      <recent name="D:\desktop\study\3s\software\test\tools\graphviz" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\desktop\study\3s\software\test\src" />
+      <recent name="D:\desktop\study\3s\software\test\resource" />
       <recent name="D:\desktop\study\3s\software\test" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="UI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UI" />
-      <module name="test" />
+      <module name="TextToGraph" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,11 +133,28 @@
       <workItem from="1716257870661" duration="3513000" />
       <workItem from="1716261432057" duration="1637000" />
       <workItem from="1716265578078" duration="76000" />
+      <workItem from="1716266354460" duration="597000" />
+      <workItem from="1716267324546" duration="1121000" />
+      <workItem from="1716273640704" duration="8631000" />
+      <workItem from="1716284284189" duration="3723000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1716266369879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716266369879</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
